@@ -1,5 +1,3 @@
-![Main branch status:](https://github.com/Lotta-bot/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
 # Краткое описание проекта
 
 Серверная часть платформы YaMDb позволяет администраторам сайта загружать новые произведения, назначать для них нужные жанры и категорию. Пользователи сервиса могут оставлять отзывы на произведения, ставить им оценки, а также комментировать отзывы других пользователей.
@@ -44,7 +42,3 @@ docker compose -f ./infra/docker-compose.yaml exec web python manage.py dumpdata
 ```
 docker compose -f ./infra/docker-compose.yaml exec web python manage.py loaddata fixtures.json
 ```
-
-# Деплой
-
-На данный момент сервер задеплоен по адресу `84.252.130.187`.
